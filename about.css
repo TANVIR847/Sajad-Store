@@ -48,3 +48,66 @@ ul li{
     margin-top: 32px;
     list-style: none;
     margin-left: 50px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: coral;
+    transition: all 0.6s ease 0s;
+}
+
+ul li a:hover{
+    color: green;
+}
+
+button{
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    color:coral;
+    background-color: green;
+    font-size: 22px;
+    margin-top: -10px;
+}
+
+ul li button a:hover{
+    color: bisque;
+}
+
+.content{
+    margin-top: 5%;
+}
+
+.content h1{
+    font-size: 62px;
+    color: coral;
+}
+
+.par{
+    font-size: 26px;
+    color: green;
+    position: absolute;
+}
+
+.pro{
+    width: 900px;
+    float: right;
+    margin-left: 700px;
+    margin-top: -6%;
+    position: absolute;
+}
+
+
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.8s linear forwards;
+}
+
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    }
