@@ -198,3 +198,60 @@ u{
 
 
 .beetroot{
+    width: 200px;
+}
+.beet{
+    font-size: 26px;
+    margin-left: 80px;
+}
+
+
+.banana{
+    width: 250px;
+}
+.ban{
+    font-size: 26px;
+    margin-left: 55px;
+}
+
+
+.zucini{
+    width: 200px;
+}
+.zuc{
+    font-size: 26px;
+    margin-left: 80px;
+}
+
+
+.avacado{
+    width: 260px;
+}
+.ava{
+    font-size: 26px;
+    margin-left: 90px;
+}
+
+
+
+.cantalop{
+    width: 270px;
+}
+.cant{
+    font-size: 26px;
+    margin-left: 80px;
+}
+
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.8s linear forwards;
+}
+
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    }
+
