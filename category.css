@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Smooch Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;;
+}
+
+.main{
+    width: 100%;
+    height: 170vh;
+    background-image: url(./thunder2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    position: relative;
+    background-image: url(./bg.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+
+.navbar{
+    width: 1550px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #fdebd5;
+    border-radius: 15px;
+}
+
+.logo{
+    width: 250px;
+    float: left;
+    left: 20px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.info ul{
+display: flex;
+justify-content: space-evenly;
+text-align: center;
+}
+
+ul li{
+    font-size: 28px;
+    margin-top: 32px;
+    list-style: none;
+    margin-left: 50px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: coral;
+    transition: all 0.6s ease 0s;
+}
+
+ul li a:hover{
+    color: green;
+}
+
+button{
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    color:coral;
+    background-color: green;
+    font-size: 22px;
+    margin-top: -10px;
+}
+
+ul li button a:hover{
+    color: bisque;
+}
+
+.product{
+    background-color: #fdebd5;
+    border-radius: 10px;
+    margin-top: 8%;
+}
+
+.product h1{
+    font-size: 70px;
+    margin-left: 45%;
+    padding: 5px;
+}
+
+
+u{
+    color: coral;
+    width: 5px;
+}
+
+
+.vege1{
+    display: flex;
+    justify-content: space-evenly;
